@@ -21,22 +21,22 @@ const Header = () => {
           <ul
             className={`${styles.menuOptions} navbar-nav container-fluid d-flex gap-5 align-items-center justify-content-center gap-lg-3`}>
             <li>
-              <a className={`${styles.option} p-1`} href="#">
+              <a className={`${styles.option} p-1`} href="#home">
                 Inicio
               </a>
             </li>
             <li>
-              <a className={`${styles.option} p-1`} href="#">
+              <a className={`${styles.option} p-1`} href="#about">
                 Sobre Mi
               </a>
             </li>
             <li>
-              <a className={`${styles.option} p-1`} href="#">
+              <a className={`${styles.option} p-1`} href="#skills">
                 Habilidades
               </a>
             </li>
             <li>
-              <a className={`${styles.option} p-1`} href="#">
+              <a className={`${styles.option} p-1`} href="#contact">
                 Contacto
               </a>
             </li>

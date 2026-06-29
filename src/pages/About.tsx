@@ -1,12 +1,11 @@
 import styles from "./pages.module.css";
-import Header from "@components/header/Header";
 
-export default function Home() {
+export default function About() {
   return (
     <div
-      id="home"
+      id="about"
       className={`${styles.shareStyle} container-fluid d-flex justify-content-center align-items-center`}>
-      <Header />
+      Hola About
     </div>
   );
 }
