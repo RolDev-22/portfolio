@@ -3,7 +3,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`${styles.headerStyle} navbar navbar-expand-lg container-fluid d-flex row h-25 row col-12 col-lg-11 justify-content-center gap-2`}>
+        className={`${styles.headerStyle} navbar navbar-expand-lg container-fluid d-flex row h-10 row col-12 col-lg-11 justify-content-center gap-2`}>
         <button
           className="navbar-toggler col-1 order-1 order-lg-1 p-1 border-0 shadow-none"
           type="button"
