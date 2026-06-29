@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fredoka:wght@300..700&family=Jura:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --mainFont: "Montserrat", sans-serif;
+  --secondaryFont: "Jura", sans-serif;
+  --thirdFont: "Fredoka", sans-serif;
+  --specialFont: "Black Ops One", system-ui;
+
+  --textColor0: #ffffff;
+  --textColor1: #08c2de;
+  --textColor2: #0083ba;
+  --textColor3: #008498;
+  --textColor4: #4c0098;
+  --textColor5: #004998;
+  --textColor6: #ea9d42;
+  --textColor7: #a6442b;
+  --textColor8: #fdc19e;
+
+  --bg0: #e2d9ce;
+  --bg1: #fde9d1;
+  --bg2: #f9e5dc;
+  --bg3: #efdfe9;
+  --bg4: #e5dbf6;
+}
+
+body {
+  min-width: 250px;
+}
+
+#root {
+  min-height: 100dvh;
+  background: linear-gradient(
+    95deg,
+    var(--bg1),
+    var(--bg1),
+    var(--bg3),
+    var(--bg4),
+    var(--bg4)
+  );
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textColor7);
+  font-family: var(--thirdFont);
+}
+
+@media screen and (width > 991px) {
+  a {
+    font-size: 1.5rem;
+  }
+}
