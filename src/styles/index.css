@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Coiny&family=Fredoka:wght@300..700&family=Jura:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --cl0: #fff;
+  --cl1: #e8ccc5;
+  --cl2: #f6e7c6;
+  --cl3: #cfd4ae;
+  --cl4: #8f5601;
+  --cl5: #4f3815;
+  --cl6: #bdced3;
+  --cl7: #bc8cff;
+  --cl8: #00508f;
+  --cl9: #42576b;
+  --cl10: #14293a;
+
+  --fnt1: "Jura", sans-serif;
+  --fnt2: "Montserrat", sans-serif;
+  --fnt3: "Fredoka", sans-serif;
+  --fnt4: "Coiny", system-ui;
+}
+
+body {
+  background-image: linear-gradient(45deg, var(--cl1), var(--cl3), var(--cl7));
+  font-family: var(--fnt3);
+  color: var(--cl0);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
