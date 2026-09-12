@@ -19,7 +19,14 @@
   --fnt4: "Coiny", system-ui;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  width: 100dvw;
   background-image: linear-gradient(45deg, var(--cl1), var(--cl3), var(--cl7));
   font-family: var(--fnt3);
   color: var(--cl0);
@@ -27,7 +34,6 @@ body {
 
 #root {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  max-width: 100vw;
 }

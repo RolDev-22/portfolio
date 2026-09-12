@@ -1,8 +1,10 @@
+import Navbar from "@/components/layout/Navbar";
+
 function App() {
   return (
     <>
-      <section>
-        <h1>hola</h1>
+      <section className="container-fluid col-12 w-100 p-0">
+        <Navbar />
       </section>
     </>
   );
