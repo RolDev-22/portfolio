@@ -13,6 +13,13 @@ export default defineConfig({
       ),
       "@features": fileURLToPath(new URL("./src/features", import.meta.url)),
       "@styles": fileURLToPath(new URL("./src/styles", import.meta.url)),
+      "@layout": fileURLToPath(
+        new URL("./src/components/layout", import.meta.url),
+      ),
+      "@assets": fileURLToPath(new URL("./src/assets", import.meta.url)),
+      "@sections": fileURLToPath(
+        new URL("./src/components/sections", import.meta.url),
+      ),
     },
   },
 });

@@ -1,11 +1,16 @@
-import Navbar from "@/components/layout/Navbar";
+import Header from "@layout/Header/Header";
+import Hero from "@sections/Hero/Hero";
 
 function App() {
   return (
     <>
-      <section className="container-fluid col-12 w-100 p-0">
-        <Navbar />
-      </section>
+      <Header />
+
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div></div>
+      <Hero />
     </>
   );
 }

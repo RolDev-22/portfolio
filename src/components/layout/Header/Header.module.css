@@ -1,0 +1,89 @@
+.header {
+  z-index: 2;
+}
+
+.logo {
+  min-width: 50px;
+  max-width: 60px;
+}
+
+.titleLogo {
+  font-size: 1.7rem;
+  color: var(--cl8);
+}
+
+.navbarTogglerBtn {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.navbarToggler {
+  position: relative;
+  height: 0.2rem;
+  width: 1rem;
+  background-color: var(--cl8);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbarToggler::before,
+.navbarToggler::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 0.2rem;
+  background-color: var(--cl8);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbarToggler::before {
+  top: -0.5rem;
+  width: 1.5rem;
+}
+
+.navbarToggler::after {
+  top: 0.5rem;
+  width: 0.5rem;
+}
+
+.navbarTogglerBtn.activeBtn .navbarToggler {
+  background-color: transparent;
+}
+
+.navbarTogglerBtn.activeBtn .navbarToggler::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.navbarTogglerBtn.activeBtn .navbarToggler::after {
+  transform: rotate(-45deg);
+  top: 0;
+  width: 1.5rem;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to bottom, var(--cl10), var(--cl8));
+  transition: all 0.3s ease-in-out;
+}
+
+.activeNav {
+  left: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    position: static;
+    width: auto;
+    height: 100%;
+    background-image: none;
+    flex-direction: row;
+  }
+}
