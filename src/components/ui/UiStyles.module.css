@@ -1,0 +1,27 @@
+.primary {
+  color: var(--cl1);
+  font-size: 1.05rem;
+  background-color: var(--cl9);
+  border-color: var(--cl1);
+  text-transform: uppercase;
+}
+
+.special {
+  color: var(--cl1);
+  font-size: 1.05rem;
+  background: var(--cl8);
+  border-color: var(--cl1);
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 992px) {
+  .general {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .general:hover {
+    color: var(--cl1);
+    box-shadow: inset 0 -100px 0 0 var(--cl11);
+    transform: scale(1.1);
+  }
+}
