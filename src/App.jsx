@@ -1,5 +1,6 @@
 import Header from "@layout/Header/Header";
 import Hero from "@sections/Hero/Hero";
+import About from "@sections/About/About";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </div>
       <Header />
       <Hero />
+      <About />
     </>
   );
 }

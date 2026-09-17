@@ -8,7 +8,8 @@
       "@styles/*": ["src/styles/*"],
       "@layout/*": ["src/components/layout/*"],
       "@assets/*": ["src/assets/*"],
-      "@sections/*": ["src/components/sections/*"]
+      "@sections/*": ["src/components/sections/*"],
+      "@constants/*": ["src/constants/*"]
     }
   }
 }

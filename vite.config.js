@@ -11,6 +11,7 @@ export default defineConfig({
       "@components": fileURLToPath(
         new URL("./src/components", import.meta.url),
       ),
+      "@constants": fileURLToPath(new URL("./src/constants", import.meta.url)),
       "@features": fileURLToPath(new URL("./src/features", import.meta.url)),
       "@styles": fileURLToPath(new URL("./src/styles", import.meta.url)),
       "@layout": fileURLToPath(

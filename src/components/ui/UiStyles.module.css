@@ -1,5 +1,5 @@
 .primary {
-  color: var(--cl1);
+  color: var(--cl0);
   font-size: 1.05rem;
   background-color: var(--cl9);
   border-color: var(--cl1);
@@ -7,7 +7,7 @@
 }
 
 .special {
-  color: var(--cl1);
+  color: var(--cl0);
   font-size: 1.05rem;
   background: var(--cl8);
   border-color: var(--cl1);

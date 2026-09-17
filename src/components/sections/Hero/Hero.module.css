@@ -1,3 +1,8 @@
+.wrapperHero {
+  position: relative;
+  z-index: 0;
+}
+
 .heroContent {
   position: relative;
   backdrop-filter: blur(1px) brightness(150%);
@@ -8,51 +13,39 @@
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
   );
-}
-
-.title {
-  font-size: 2rem;
+  z-index: 0;
 }
 
 .imgPerfil {
   width: 10rem;
 }
 
-.description {
-  font-size: 1rem;
-}
-
 @media screen and (min-width: 768px) {
-  .title {
-    font-size: 2.5rem;
-  }
-
   .imgPerfil {
     width: 13rem;
   }
 
-  .description {
-    font-size: 1.5rem;
-  }
-
-  .heroContent::after,
-  .heroContent::before {
+  .wrapperHero::after,
+  .wrapperHero::before {
     content: "";
     position: absolute;
     width: 10rem;
     height: 10rem;
-    background-color: var(--cl6);
+    background-color: var(--cl10);
+    z-index: -5;
+    opacity: 0.5;
+    z-index: -1;
   }
 
-  .heroContent::after {
-    top: -2rem;
-    left: -2rem;
+  .wrapperHero::after {
+    top: -1.5rem;
+    left: -1.5rem;
     border-radius: 0.5rem 0.5rem 100% 0.5rem;
   }
 
-  .heroContent::before {
-    bottom: -2rem;
-    right: -2rem;
+  .wrapperHero::before {
+    bottom: -1.5rem;
+    right: -1.5rem;
     border-radius: 100% 0.5rem 0.5rem 0.5rem;
   }
 }

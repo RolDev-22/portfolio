@@ -14,7 +14,7 @@ export default function Header() {
         className={`d-flex flex-row z-1 col-12 col-lg-4 h-100 justify-content-between align-items-center`}>
         <div className={`d-flex flex-grow-1 p-0`}>
           <a
-            href="#"
+            href="#home"
             className={`d-flex flex-row justify-content-center align-items-center`}>
             <figure className={`h-100 m-0 ${styles.logo}`}>
               <img src={logo} alt="logo-page" className="img-fluid" />
