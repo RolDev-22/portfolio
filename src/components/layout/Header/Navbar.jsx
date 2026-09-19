@@ -11,13 +11,13 @@ export const Navbar = ({ setIsMenuOpen }) => {
           </a>
         </li>
         <li className={`${styles.liNavbar} p-1`}>
-          <a href="#project" onClick={() => setIsMenuOpen(false)}>
-            Proyectos
+          <a href="#skill" onClick={() => setIsMenuOpen(false)}>
+            Habilidades
           </a>
         </li>
         <li className={`${styles.liNavbar} p-1`}>
-          <a href="#skill" onClick={() => setIsMenuOpen(false)}>
-            Habilidades
+          <a href="#project" onClick={() => setIsMenuOpen(false)}>
+            Proyectos
           </a>
         </li>
         <li className={`${styles.liNavbar} p-1`}>
