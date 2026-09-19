@@ -1,4 +1,5 @@
 import Header from "@layout/Header/Header";
+import Footer from "@layout/Footer/Footer";
 import Hero from "@sections/Hero/Hero";
 import About from "@sections/About/About";
 
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Footer />
     </>
   );
 }

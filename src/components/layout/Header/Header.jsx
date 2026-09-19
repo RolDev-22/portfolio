@@ -1,7 +1,7 @@
-import logo from "@assets/log.png";
 import styles from "./Header.module.css";
 import { Navbar } from "./Navbar";
 import { useState } from "react";
+import { Logo } from "@ui/Logo";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,16 +13,7 @@ export default function Header() {
       <section
         className={`d-flex flex-row z-1 col-12 col-lg-4 h-100 justify-content-between align-items-center`}>
         <div className={`d-flex flex-grow-1 p-0`}>
-          <a
-            href="#home"
-            className={`d-flex flex-row justify-content-center align-items-center`}>
-            <figure className={`h-100 m-0 ${styles.logo}`}>
-              <img src={logo} alt="logo-page" className="img-fluid" />
-            </figure>
-            <h1 className={`m-0 d-none d-md-block ${styles.titleLogo}`}>
-              Rolando Murillo
-            </h1>
-          </a>
+          <Logo setIsMenuOpen={setIsMenuOpen} />
         </div>
         <div className={`d-flex flex-grow-1 p-1 justify-content-end`}>
           <button

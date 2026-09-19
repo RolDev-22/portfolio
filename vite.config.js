@@ -21,6 +21,7 @@ export default defineConfig({
       "@sections": fileURLToPath(
         new URL("./src/components/sections", import.meta.url),
       ),
+      "@ui": fileURLToPath(new URL("./src/components/ui", import.meta.url)),
     },
   },
 });

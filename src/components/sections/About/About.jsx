@@ -26,13 +26,13 @@ export default function About() {
         <div className="pb-2 d-flex container-fluid justify-content-evenly align-items-center">
           <a
             className={`d-flex justify-content-center p-1 rounded-5 ${styles.iconsSocial}`}
-            href=""
+            href="https://github.com/RolDev-22"
             target="blanck">
             <FaGithub />
           </a>
           <a
             className={`d-flex justify-content-center p-1 rounded-5 ${styles.iconsSocial}`}
-            href=""
+            href="https://www.linkedin.com/in/rolando-ma/"
             target="black">
             <TiSocialLinkedin />
           </a>

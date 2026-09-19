@@ -1,0 +1,19 @@
+.sectionFooterStyles {
+  position: relative;
+}
+
+.sectionFooterStyles::after {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 0.15rem;
+  top: 0;
+  border-radius: 50%;
+  background-color: var(--cl8);
+  box-shadow: 0px 1px 6px var(--cl11);
+}
+
+.copyright {
+  color: var(--cl0);
+  text-shadow: 0px 1px 10px var(--cl1);
+}

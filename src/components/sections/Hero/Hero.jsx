@@ -12,10 +12,10 @@ export default function Hero() {
         <div
           className={`d-flex flex-column align-items-center p-1 w-100 rounded-4 ${styles.heroContent}`}>
           <article className=" flex-grow-1 w-100 d-flex flex-column flex-md-row justify-content-md-center align-items-center text-center">
-            <h2 className="sharedTitle">Hola, soy Rolando</h2>
             <figure className={`h-100 m-0 p-1 ${styles.imgPerfil}`}>
               <img src={perfilImage} alt="Image-perfil" className="img-fluid" />
             </figure>
+            <h2 className="sharedTitle">Hola, soy Rolando</h2>
           </article>
           <p className={`sharedDescription text-center m-0 col-12 col-md-10`}>
             Diseñador UI/UX Y Desarrollador Web apasionado por crear interfaces
