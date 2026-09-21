@@ -53,7 +53,7 @@
 .navbar {
   position: absolute;
   top: 0;
-  left: -100%;
+  left: -150%;
   width: 100dvw;
   height: 100dvh;
   display: flex;
@@ -61,7 +61,7 @@
   align-items: center;
   justify-content: space-evenly;
   background-image: linear-gradient(to bottom, var(--cl10), var(--cl8));
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .activeNav {

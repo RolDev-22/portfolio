@@ -10,7 +10,7 @@ export default function Header({ scrollControl }) {
   return (
     <header
       style={{ height: "60px" }}
-      className={`${styles.header} ${scrollNow > 100 ? "blurHeaderControl" : ""}  container-fluid d-flex flex-row position-fixed top-0 start-0 px-0 justify-content-center justify-content-lg-between align-items-center`}>
+      className={`fadeInUp ${styles.header} ${scrollNow > 100 ? "blurHeaderControl" : ""}  container-fluid d-flex flex-row position-fixed top-0 start-0 px-0 justify-content-center justify-content-lg-between align-items-center`}>
       <section
         className={`d-flex flex-row z-1 col-12 col-lg-4 h-100 justify-content-between align-items-center`}>
         <div className={`d-flex flex-grow-1 p-0`}>

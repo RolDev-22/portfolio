@@ -9,7 +9,7 @@ export default function About() {
       id="about"
       className="sharedClass px-0 pt-5 container-fluid d-flex flex-column flex-lg-row justify-content-center align-items-center">
       <section className="gap-2 gap-md-2 gap-lg-3 order-2 order-lg-1 col-11 col-md-8 col-lg-5 d-flex flex-column justify-content-center align-items-center ">
-        <h2 className="sharedTitle m-0">Conóceme</h2>
+        <h2 className="apperEffect sharedTitle m-0">Conóceme</h2>
         <h4 className="sharedDescription text-center m-0">
           Rolando Murillo | UX/UI Diseñador y Desarrollador Web
         </h4>
@@ -27,20 +27,22 @@ export default function About() {
           <a
             className={`d-flex justify-content-center p-1 rounded-1 ${styles.iconsSocial}`}
             href="https://github.com/RolDev-22"
-            target="blanck">
+            target="_blank"
+            rel="noopener noreferrer">
             <FaSquareGithub />
           </a>
           <a
             className={`d-flex justify-content-center p-1 rounded-1 ${styles.iconsSocial}`}
             href="https://www.linkedin.com/in/rolando-ma/"
-            target="black">
+            target="_blank"
+            rel="noopener noreferrer">
             <FaLinkedin />
           </a>
         </div>
       </section>
       <section className="order-1 order-lg-2 col-11 col-md-8 col-lg-5 d-flex justify-content-center align-items-center ">
         <figure className={`${styles.figureAbout}`}>
-          <img className="img-fluid" src={imgAbout} alt="" />
+          <img className="apperEffect img-fluid" src={imgAbout} alt="" />
         </figure>
       </section>
     </section>

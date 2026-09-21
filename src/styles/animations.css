@@ -1,9 +1,113 @@
-/* EFECTO DE DESENFOQUE EN EL HEADER */
-.blurHeaderControl {
-  backdrop-filter: blur(0px);
-  box-shadow: 0px 0px 0px transparent;
+/* EFECTO DE ENTRADA AL CARGAR */
+.fadeInUp {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUpAnim 0.8s ease-out forwards;
 }
 
+.fadeInDown {
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeInUpAnim 0.8s ease-out forwards;
+}
+
+.fadeInLeft {
+  opacity: 0;
+  transform: translateX(30px);
+  animation: fadeDownAnim 0.8s ease-out forwards;
+}
+
+.fadeInRight {
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: fadeDownAnim 0.8s ease-out forwards;
+}
+
+/* EFECTO DE ENTRADA */
+.apperEffect {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 20% cover 30%;
+}
+
+.apperEffectLeft {
+  animation: appearLeft linear;
+  animation-timeline: view();
+  animation-range: entry 20% cover 30%;
+}
+
+.apperEffectRight {
+  animation: appearRight linear;
+  animation-timeline: view();
+  animation-range: entry 20% cover 30%;
+}
+
+.apperEffectDown {
+  animation: appearDown linear;
+  animation-timeline: view();
+  animation-range: entry 20% cover 30%;
+}
+
+/* CONTROL DE APARICION*/
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes appearLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes appearRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes appearDown {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* CONTROL DE ENTRADA */
+@keyframes fadeInUpAnim {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDownAnim {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* MEDIA SCREEN RESPONSIVE CONTROL */
 @media screen and (min-width: 992px) {
   /* EFECTO DE DESENFOQUE EN EL HEADER */
   .blurHeaderControl {
