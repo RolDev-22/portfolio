@@ -1,0 +1,20 @@
+.figIconStyle {
+  display: grid;
+  place-items: center;
+  width: 4rem;
+  height: 4rem;
+  font-size: 3rem;
+  border-radius: 50%;
+  background-color: var(--cl8);
+  transition: all 0.5s ease;
+}
+
+.targetStyle {
+  background-color: var(--cl11);
+}
+
+@media screen and (min-width: 992px) {
+  .figIconStyle:hover {
+    transform: scale(1.1);
+  }
+}
