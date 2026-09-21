@@ -6,6 +6,7 @@ import Competence from "@sections/Competence/Competence";
 import Work from "@sections/Work/Work";
 import Contact from "@sections/Contact/Contact";
 import { useScrollY } from "./hooks/useScrollY";
+import { getIconsList } from "./hooks/getIconsList";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Header scrollControl={useScrollY} />
       <Hero />
       <About />
-      <Competence />
+      <Competence getIconsList={getIconsList} />
       <Work />
       <Contact />
       <Footer />

@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="sharedClass px-0 pt-5 container-fluid d-flex flex-column flex-lg-row justify-content-center align-items-center">
+      className=" px-0 pt-5 container-fluid d-flex flex-column flex-lg-row justify-content-center align-items-center">
       <section className="gap-2 gap-md-2 gap-lg-3 order-2 order-lg-1 col-11 col-md-8 col-lg-5 d-flex flex-column justify-content-center align-items-center ">
         <h2 className="apperEffect sharedTitle m-0">Conóceme</h2>
         <h4 className="apperEffect sharedDescription text-center m-0">

@@ -1,3 +1,18 @@
+.decorativeSpan {
+  position: relative;
+}
+
+.decorativeSpan::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -0.5rem;
+  width: 100%;
+  height: 0.3rem;
+  border-radius: 5rem;
+  background-color: var(--cl11);
+}
+
 .figIconStyle {
   display: grid;
   place-items: center;
@@ -11,10 +26,33 @@
 
 .targetStyle {
   background-color: var(--cl11);
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  z-index: 1;
 }
 
 @media screen and (min-width: 992px) {
   .figIconStyle:hover {
     transform: scale(1.1);
+  }
+
+  .targetStyle:hover {
+    transform: translateY(-2rem);
+    background-color: transparent;
+
+    backdrop-filter: blur(10px);
+  }
+
+  .iconsDev {
+    opacity: 0;
+    height: 0;
+    transform: translateY(100px);
+    transition: all 0.5s ease;
+  }
+
+  .targetStyle:hover > .iconsDev {
+    opacity: 1;
+    transform: translateY(0px);
+    height: auto;
   }
 }
