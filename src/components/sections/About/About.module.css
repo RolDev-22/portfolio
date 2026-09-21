@@ -3,7 +3,7 @@
 }
 
 .figureAbout > img {
-  filter: drop-shadow(5px 2px 200px var(--cl1));
+  filter: drop-shadow(5px 2px 80px var(--cl1));
 }
 
 .paragraphAbout {

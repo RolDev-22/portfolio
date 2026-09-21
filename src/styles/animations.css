@@ -27,58 +27,26 @@
 .apperEffect {
   animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 20% cover 30%;
-}
-
-.apperEffectLeft {
-  animation: appearLeft linear;
-  animation-timeline: view();
-  animation-range: entry 20% cover 30%;
-}
-
-.apperEffectRight {
-  animation: appearRight linear;
-  animation-timeline: view();
-  animation-range: entry 20% cover 30%;
+  animation-range: entry 0% cover 30%;
 }
 
 .apperEffectDown {
   animation: appearDown linear;
   animation-timeline: view();
-  animation-range: entry 20% cover 30%;
+  animation-range: entry 10% cover 10%;
 }
 
 /* CONTROL DE APARICION*/
 @keyframes appear {
   from {
     opacity: 0;
-    scale: 0.5;
+    transform: rotateY(-35deg) scale(0.75);
+    filter: blur(10px);
   }
   to {
     opacity: 1;
-    scale: 1;
-  }
-}
-
-@keyframes appearLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
-@keyframes appearRight {
-  from {
-    opacity: 0;
-    transform: translateX(100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
+    transform: rotateY(0deg) scale(1);
+    filter: blur(0px);
   }
 }
 
@@ -107,6 +75,7 @@
     transform: translateX(0);
   }
 }
+
 /* MEDIA SCREEN RESPONSIVE CONTROL */
 @media screen and (min-width: 992px) {
   /* EFECTO DE DESENFOQUE EN EL HEADER */

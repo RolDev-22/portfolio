@@ -10,11 +10,11 @@ export default function Contact() {
     <section
       id="contact"
       className="sharedClass px-0 container-fluid d-flex flex-column justify-content-center align-items-center">
-      <h2 className="sharedTitle m-0">Contactame</h2>
+      <h2 className="apperEffect sharedTitle m-0">Contactame</h2>
       <section
         className={`${styles.containerStyleContact} container-fluid d-flex flex-column flex-md-row col-md-9 p-1 rounded-2`}>
         <div className="container-fluid order-2">
-          <div className="sharedSelect container-fluid colo-12 p-1 m-0 order-md-1">
+          <div className="apperEffect sharedSelect container-fluid colo-12 p-1 m-0 order-md-1">
             <h2>¡Hablemos!</h2>
             <p className={`${styles.textContact}`}>
               Estoy aquí para responder tus dudas y escuchar tus ideas
@@ -23,7 +23,7 @@ export default function Contact() {
           <form
             action=""
             className=" p-2 m-0 d-flex flex-column gap-2 rounded-3 col-12">
-            <div className="container d-flex flex-column">
+            <div className="apperEffectDown container d-flex flex-column">
               <label htmlFor="inptName">Nombre</label>
               <input
                 className="form-control shadow-none"
@@ -60,10 +60,10 @@ export default function Contact() {
           </form>
         </div>
         <div
-          className={`${styles.infoContactStyle} container-fluid d-flex flex-column align-items-center order-md-2 rounded-2 justify-content-center`}>
+          className={`apperEffect ${styles.infoContactStyle} container-fluid d-flex flex-column align-items-center order-md-2 rounded-2 justify-content-center`}>
           <div className="d-flex flex-column gap-0 gap-gap-md-3">
-            <h2 className="sharedSelect ">Contacto</h2>
-            <ul className="p-0 m-0 d-flex flex-column gap-0 gap-md-3">
+            <h2 className=" sharedSelect ">Contacto</h2>
+            <ul className=" p-0 m-0 d-flex flex-column gap-0 gap-md-3">
               <li className="d-flex flex-row align-items-center gap-3">
                 <FaMapMarkedAlt /> Costa Rica, Puntarenas
               </li>
@@ -78,7 +78,7 @@ export default function Contact() {
               </li>
             </ul>
           </div>
-          <figure className="d-flex flex-row gap-5 mt-0 mt-md-5">
+          <figure className="apperEffectDown d-flex flex-row gap-5 mt-0 mt-md-5">
             <a
               className={`${styles.iconsSocial}`}
               href="https://github.com/RolDev-22">

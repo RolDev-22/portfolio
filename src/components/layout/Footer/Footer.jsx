@@ -9,7 +9,7 @@ import { FaPhone } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="apperEffectDown">
       <section
         className={`p-1 d-flex flex-column flex-md-row justify-content-center align-items-strecht ${styles.sectionFooterStyles}`}>
         <div className="p-1 d-flex flex-column col-12 col-md-4 justify-content-center align-items-center">
