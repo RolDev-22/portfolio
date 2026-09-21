@@ -1,7 +1,7 @@
 import imgAbout from "@assets/img-about.png";
 import styles from "./About.module.css";
-import { FaGithub } from "react-icons/fa";
-import { TiSocialLinkedin } from "react-icons/ti";
+import { FaSquareGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
 
 export default function About() {
   return (
@@ -25,16 +25,16 @@ export default function About() {
         </p>
         <div className="pb-2 d-flex container-fluid justify-content-evenly align-items-center">
           <a
-            className={`d-flex justify-content-center p-1 rounded-5 ${styles.iconsSocial}`}
+            className={`d-flex justify-content-center p-1 rounded-1 ${styles.iconsSocial}`}
             href="https://github.com/RolDev-22"
             target="blanck">
-            <FaGithub />
+            <FaSquareGithub />
           </a>
           <a
-            className={`d-flex justify-content-center p-1 rounded-5 ${styles.iconsSocial}`}
+            className={`d-flex justify-content-center p-1 rounded-1 ${styles.iconsSocial}`}
             href="https://www.linkedin.com/in/rolando-ma/"
             target="black">
-            <TiSocialLinkedin />
+            <FaLinkedin />
           </a>
         </div>
       </section>

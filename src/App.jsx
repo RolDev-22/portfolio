@@ -5,6 +5,7 @@ import About from "@sections/About/About";
 import Competence from "@sections/Competence/Competence";
 import Work from "@sections/Work/Work";
 import Contact from "@sections/Contact/Contact";
+import { useScrollY } from "./hooks/useScrollY";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <div id="stars2"></div>
         <div id="stars3"></div>
       </div>
-      <Header />
+      <Header scrollControl={useScrollY} />
       <Hero />
       <About />
       <Competence />

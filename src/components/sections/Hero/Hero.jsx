@@ -17,7 +17,7 @@ export default function Hero() {
             </figure>
             <h2 className="sharedTitle">Hola, soy Rolando</h2>
           </article>
-          <p className={`sharedDescription text-center m-0 col-12 col-md-10`}>
+          <p className="sharedDescription text-center m-0 col-12 col-md-10">
             Diseñador UI/UX Y Desarrollador Web apasionado por crear interfaces
             intuitivas
           </p>

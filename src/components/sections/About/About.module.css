@@ -11,8 +11,9 @@
 }
 
 .iconsSocial {
-  background-color: var(--cl10);
-  font-size: 2.5rem;
+  font-size: 3rem;
+  padding: 0.1px;
+  border: 0.1px solid transparent;
   transition: all 0.5s ease-in-out;
 }
 
@@ -29,6 +30,8 @@
 
   .iconsSocial:hover {
     transform: scale(1.1) translateY(0.5rem);
-    background-color: var(--cl9);
+    padding: 0.05rem;
+    border: 0.2px solid var(--cl3);
+    box-shadow: inset 0px 0px 10px var(--cl0);
   }
 }

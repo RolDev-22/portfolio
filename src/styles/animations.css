@@ -1,0 +1,14 @@
+/* EFECTO DE DESENFOQUE EN EL HEADER */
+.blurHeaderControl {
+  backdrop-filter: blur(0px);
+  box-shadow: 0px 0px 0px transparent;
+}
+
+@media screen and (min-width: 992px) {
+  /* EFECTO DE DESENFOQUE EN EL HEADER */
+  .blurHeaderControl {
+    transition: all 0.5s ease-in-out;
+    backdrop-filter: blur(10px);
+    box-shadow: 0rem 0rem 0.5rem var(--cl9);
+  }
+}

@@ -60,10 +60,16 @@ li {
 .sharedTitle {
   font-size: 2rem;
   text-shadow: 0px 1px 10px var(--cl1);
+  user-select: none;
 }
 
-.sheredDescription {
+.sharedDescription {
   font-size: 1rem;
+  user-select: none;
+}
+
+.sharedSelect {
+  user-select: none;
 }
 
 @media (max-width: 768px) {
@@ -2188,11 +2194,6 @@ li {
   opacity: 0;
   transform: translateY(30px);
   animation: introFadeUp 1.2s ease-out forwards;
-}
-#title span {
-  background: -webkit-linear-gradient(white, #38495a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 @keyframes animStar {
