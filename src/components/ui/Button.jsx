@@ -1,7 +1,7 @@
 import styles from "./UiStyles.module.css";
 import { ROUTES } from "@constants/routes";
 
-export const BtnComponent = ({
+export const Button = ({
   name,
   type = "primary",
   reference = "#",

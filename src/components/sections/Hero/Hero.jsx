@@ -1,6 +1,6 @@
 import styles from "./Hero.module.css";
 import perfilImage from "@assets/prfl-about.png";
-import { BtnComponent } from "@/components/ui/BtnComponent";
+import { Button } from "@ui/Button";
 
 export default function Hero() {
   return (
@@ -22,13 +22,13 @@ export default function Hero() {
             intuitivas
           </p>
           <div className="d-flex flex-column flex-md-row w-100 p-3 gap-3 gap-md-5 align-items-center justify-content-center">
-            <BtnComponent
+            <Button
               name={"Mis Projectos"}
               type="special"
               reference="3"
               particularClass="fadeInLeft"
             />
-            <BtnComponent
+            <Button
               name={"Contactame"}
               type="primary"
               reference="5"
