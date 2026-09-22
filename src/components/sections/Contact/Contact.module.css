@@ -9,7 +9,7 @@
 .infoContactStyle {
   background-image:
     linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../src/assets/img_contact.jpg");
+    url("./img_contact.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
