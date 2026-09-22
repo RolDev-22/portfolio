@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
 import { Navbar } from "@layout/Header/Navbar/Navbar";
 import { useState } from "react";
-import { LogoComponent } from "@/components/ui/LogoComponent";
+import { Logo } from "@ui/Logo";
 
 export default function Header({ scrollControl }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +14,7 @@ export default function Header({ scrollControl }) {
       <section
         className={`d-flex flex-row z-1 col-12 col-lg-4 h-100 justify-content-between align-items-center`}>
         <div className={`d-flex flex-grow-1 p-0`}>
-          <LogoComponent setIsMenuOpen={setIsMenuOpen} />
+          <Logo setIsMenuOpen={setIsMenuOpen} />
         </div>
         <div className={`d-flex flex-grow-1 p-1 justify-content-end`}>
           <button
