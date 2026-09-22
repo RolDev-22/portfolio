@@ -13,6 +13,7 @@ export default defineConfig({
       ),
       "@hooks": fileURLToPath(new URL("./src/hooks", import.meta.url)),
       "@utils": fileURLToPath(new URL("./src/utils", import.meta.url)),
+      "@services": fileURLToPath(new URL("./src/services", import.meta.url)),
       "@constants": fileURLToPath(new URL("./src/constants", import.meta.url)),
       "@features": fileURLToPath(new URL("./src/features", import.meta.url)),
       "@styles": fileURLToPath(new URL("./src/styles", import.meta.url)),
