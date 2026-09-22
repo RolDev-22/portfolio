@@ -23,9 +23,10 @@ export const githubService = async (limit = 6) => {
     id: repo.id,
     name: repo.name,
     description: repo.description || "Sin descripcion disponible",
-    language: repo.language,
+    language: repo.language || [],
     githubUrl: repo.html_url,
     demoUrl: repo.homepage,
     topics: repo.topics || [],
+    image: `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${repo.name}/${repo.default_branch}/preview.png`,
   }));
 };

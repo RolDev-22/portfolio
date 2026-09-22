@@ -17,7 +17,9 @@ export const useGitHubProjects = (limit = 6, requiredTopic = null) => {
 
         if (requiredTopic) {
           filteredProjects = data.filter((repo) =>
-            repo.topic.includes(requiredTopic.toLowerCase()),
+            repo.topics?.some(
+              (topic) => topic.toLowerCase() === requiredTopic.toLowerCase(),
+            ),
           );
         }
 
