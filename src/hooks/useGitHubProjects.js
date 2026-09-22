@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { fetchGitHubProjects } from "@services/githubService";
+import { githubService } from "@services/githubService";
 
 export const useGitHubProjects = (limit = 6, requiredTopic = null) => {
   const [projects, setProjects] = useState([]);
@@ -12,7 +12,7 @@ export const useGitHubProjects = (limit = 6, requiredTopic = null) => {
     const loadProjects = async () => {
       try {
         setLoading(true);
-        const data = await fetchGitHubProjects(limit);
+        const data = await githubService(limit);
         let filteredProjects = data;
 
         if (requiredTopic) {

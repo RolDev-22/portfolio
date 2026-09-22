@@ -1,7 +1,7 @@
 const GITHUB_USERNAME = import.meta.env.VITE_GITHUB_USERNAME;
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
-export const fetchGithubProjects = async (limit = 6) => {
+export const githubService = async (limit = 6) => {
   if (!GITHUB_USERNAME) {
     console.error(
       "El usuario de GitHub no está definido en las variables de entorno.",
