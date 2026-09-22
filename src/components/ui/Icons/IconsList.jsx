@@ -1,6 +1,6 @@
-import styles from "./UiStyles.module.css";
+import styles from "./IconsList.module.css";
 
-export const IconsGetComponent = ({ getIconsList, category }) => {
+export const IconsList = ({ getIconsList, category }) => {
   return (
     <div className="d-flex flex-wrap p-1 gap-3 justify-content-center align-items-center">
       {getIconsList([category]).map(({ name, Icon }) => (

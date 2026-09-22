@@ -1,5 +1,5 @@
-import styles from "./UiStyles.module.css";
-import { IconsList } from "@ui/IconsList";
+import styles from "./SkillsList.module.css";
+import { IconsList } from "@ui/Icons/IconsList";
 
 export const SkillsList = ({ getSkillsList, getIconsList }) => {
   return (

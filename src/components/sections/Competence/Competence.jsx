@@ -1,6 +1,6 @@
 import styles from "./Competence.module.css";
-import { ServicesList } from "@ui/ServiceList";
-import { SkillsList } from "@ui/SkillsList";
+import { ServicesList } from "@ui/Services/ServiceList";
+import { SkillsList } from "@ui/Skills/SkillsList";
 
 export default function Competence({
   getIconsList,

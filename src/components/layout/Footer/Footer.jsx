@@ -1,4 +1,4 @@
-import { Logo } from "@ui/Logo";
+import { Logo } from "@ui/Logo/Logo";
 import styles from "./Footer.module.css";
 import { SiDevbox } from "react-icons/si";
 import { FaDigitalOcean } from "react-icons/fa";

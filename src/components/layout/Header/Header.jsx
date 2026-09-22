@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
 import { Navbar } from "@layout/Header/Navbar/Navbar";
 import { useState } from "react";
-import { Logo } from "@ui/Logo";
+import { Logo } from "@ui/Logo/Logo";
 
 export default function Header({ scrollControl }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

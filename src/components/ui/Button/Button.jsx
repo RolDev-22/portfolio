@@ -1,4 +1,4 @@
-import styles from "./UiStyles.module.css";
+import styles from "./Button.module.css";
 import { ROUTES } from "@constants/routes";
 
 export const Button = ({

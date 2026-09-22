@@ -1,0 +1,9 @@
+.logo {
+  min-width: 50px;
+  max-width: 60px;
+}
+
+.titleLogo {
+  font-size: 1.7rem;
+  color: var(--cl8);
+}

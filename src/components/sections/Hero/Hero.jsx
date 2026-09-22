@@ -1,6 +1,6 @@
 import styles from "./Hero.module.css";
 import perfilImage from "@assets/prfl-about.png";
-import { Button } from "@ui/Button";
+import { Button } from "@ui/Button/Button";
 
 export default function Hero() {
   return (
