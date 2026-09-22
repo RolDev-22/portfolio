@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import { Navbar } from "./Navbar";
+import { Navbar } from "@layout/Header/Navbar/Navbar";
 import { useState } from "react";
 import { LogoComponent } from "@/components/ui/LogoComponent";
 

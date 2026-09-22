@@ -5,10 +5,10 @@ import About from "@sections/About/About";
 import Competence from "@sections/Competence/Competence";
 import Work from "@sections/Work/Work";
 import Contact from "@sections/Contact/Contact";
-import { useScrollY } from "./hooks/useScrollY";
-import { getIconsList } from "./hooks/getIconsList";
-import { getServicesList } from "./hooks/getServicesList";
-import { getSkillsList } from "./hooks/getSkillsList";
+import { useScrollY } from "@hooks/useScrollY";
+import { getIconsList } from "@utils/getIconsList";
+import { getServicesList } from "@utils/getServicesList";
+import { getSkillsList } from "@utils/getSkillsList";
 
 function App() {
   return (
