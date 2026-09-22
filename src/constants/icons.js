@@ -18,7 +18,7 @@ import { SiVercel } from "react-icons/si";
 import { TbApiApp } from "react-icons/tb";
 
 export const ICONS = {
-  design: {
+  Desing: {
     figma: IoLogoFigma,
     canva: SiCanvas,
     figJam: MdDashboard,
@@ -26,7 +26,7 @@ export const ICONS = {
     drawIo: FaDrawPolygon,
     gimp: SiGimp,
   },
-  developer: {
+  Development: {
     html: FaHtml5,
     css: FaCss3Alt,
     js: FaSquareJs,
@@ -34,7 +34,7 @@ export const ICONS = {
     jquery: SiJquery,
     nodeJs: FaNodeJs,
   },
-  tool: {
+  Tools: {
     github: FaGithub,
     jira: SiJira,
     supabase: SiSupabase,

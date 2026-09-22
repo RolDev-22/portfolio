@@ -1,7 +1,7 @@
 import styles from "./UiStyles.module.css";
 import logo from "@assets/log.png";
 
-export const Logo = ({ setIsMenuOpen }) => {
+export const LogoComponent = ({ setIsMenuOpen }) => {
   return (
     <a
       onClick={() => setIsMenuOpen && setIsMenuOpen(false)}

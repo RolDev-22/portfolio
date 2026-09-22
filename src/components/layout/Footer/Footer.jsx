@@ -1,4 +1,4 @@
-import { Logo } from "@ui/Logo";
+import { LogoComponent } from "@/components/ui/LogoComponent";
 import styles from "./Footer.module.css";
 import { SiDevbox } from "react-icons/si";
 import { FaDigitalOcean } from "react-icons/fa";
@@ -13,7 +13,7 @@ export default function Footer() {
       <section
         className={`p-1 d-flex flex-column flex-md-row justify-content-center align-items-strecht ${styles.sectionFooterStyles}`}>
         <div className="p-1 d-flex flex-column col-12 col-md-4 justify-content-center align-items-center">
-          <Logo />
+          <LogoComponent />
           <p className="text-center p-1">
             Desarollador Web con amplia experiencia en interfaces elegantes y
             funcionales. Hagamos realidad tu próximo proyecto
