@@ -1,4 +1,4 @@
-export const ServicesGetComponent = ({ getServicesList }) => {
+export const ServicesList = ({ getServicesList }) => {
   return (
     <>
       {getServicesList().map(({ id, Icon, title, description }) => (

@@ -1,7 +1,7 @@
 import styles from "./UiStyles.module.css";
-import { IconsGetComponent } from "@ui/IconsGetComponent";
+import { IconsList } from "@ui/IconsList";
 
-export const SkillsGetComponent = ({ getSkillsList, getIconsList }) => {
+export const SkillsList = ({ getSkillsList, getIconsList }) => {
   return (
     <>
       {getSkillsList().map(({ id, Icon, title, description }) => (
@@ -14,7 +14,7 @@ export const SkillsGetComponent = ({ getSkillsList, getIconsList }) => {
           <h2 className="sharedTitle fs-1 user-select-none">{title}</h2>
           <h4 className="fs-5 user-select-none">{description}</h4>
           <div className={`${styles.iconsDev}`}>
-            <IconsGetComponent getIconsList={getIconsList} category={title} />
+            <IconsList getIconsList={getIconsList} category={title} />
           </div>
         </section>
       ))}
