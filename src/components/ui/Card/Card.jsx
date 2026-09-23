@@ -43,7 +43,7 @@ export const Card = ({ project }) => {
         )}
         {demoUrl && (
           <a
-            href={githubUrl}
+            href={demoUrl}
             target="_blank"
             rel="noopener noreferrer"
             className={`${styles.btnCard} ${styles.general} d-flex p-2 col-12 col-md-5 rounded-5 justify-content-center`}>
