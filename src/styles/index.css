@@ -73,6 +73,10 @@ li {
   user-select: none;
 }
 
+.textAreaForm {
+  resize: none;
+}
+
 @media (max-width: 768px) {
   .logo {
     width: 70px;

@@ -26,7 +26,7 @@ export const FormContact = () => {
       <div className="container d-flex flex-column">
         <label htmlFor="inptMessage">Mensaje</label>
         <textarea
-          className={`${styles.textAreaForm} form-control shadow-none`}
+          className="textAreaForm form-control shadow-none"
           name="inptMessage"
           id="inptMessage"></textarea>
       </div>
