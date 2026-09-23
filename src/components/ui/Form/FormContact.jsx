@@ -1,5 +1,3 @@
-import styles from "./FormContact.module.css";
-
 export const FormContact = () => {
   return (
     <form
