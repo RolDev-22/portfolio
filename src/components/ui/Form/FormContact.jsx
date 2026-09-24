@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { Loading } from "@ui/Loading/Loading";
-import { mailJsService } from "@/services/mailJsService";
+import { mailJsService } from "@services/mailJsService";
 
 export const FormContact = () => {
   const [constCheck, setConstCheck] = useState(false);

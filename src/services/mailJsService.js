@@ -18,7 +18,7 @@ export const mailJsService = ({ name, mail, message }) => {
   return emailjs
     .send(EMAILJS_SERVICE, EMAILJS_TEMPLATE, dataSend)
     .then((response) => {
-      return response.status; // Retorna 200 si fue exitoso
+      return response.status;
     })
     .catch((error) => {
       return error.text || error.message;
