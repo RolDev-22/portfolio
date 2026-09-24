@@ -31,6 +31,7 @@ export const FormContact = () => {
 
       if (response === 200) {
         formRef.current.reset();
+        setMessage("MENSAJE ENVIADO EXITOSAMENTE ¡GRACIAS POR ESCRIBIRME!");
         setTimeout(() => {
           setActiveLoading(false);
         }, 3000);
