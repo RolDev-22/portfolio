@@ -1,5 +1,6 @@
 import styles from "./Navbar.module.css";
 import { FaDownload } from "react-icons/fa6";
+import CV from "/CV.pdf";
 
 export const Navbar = ({ setIsMenuOpen }) => {
   return (
@@ -26,7 +27,10 @@ export const Navbar = ({ setIsMenuOpen }) => {
           </a>
         </li>
         <li className={`${styles.liNavbarC} p-1`}>
-          <a href="#" onClick={() => setIsMenuOpen(false)}>
+          <a
+            href={CV}
+            download="CV-ROLANDO_MURILLO"
+            onClick={() => setIsMenuOpen(false)}>
             Curriculum <FaDownload />
           </a>
         </li>
