@@ -40,11 +40,6 @@ export const FormContact = () => {
           setActiveLoading(false);
         }, 3000);
       }
-    } else {
-      setMessage("RELLENA TODOS LOS CAMPOS");
-      setTimeout(() => {
-        setActiveLoading(false);
-      }, 3000);
     }
   };
 
