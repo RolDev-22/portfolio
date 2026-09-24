@@ -15,7 +15,6 @@ import { SiJira } from "react-icons/si";
 import { SiSupabase } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiVercel } from "react-icons/si";
-import { TbApiApp } from "react-icons/tb";
 import { SiPostman } from "react-icons/si";
 
 export const ICONS = {
