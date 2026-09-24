@@ -41,7 +41,6 @@ export const ICONS = {
     supabase: SiSupabase,
     firebase: IoLogoFirebase,
     vercel: SiVercel,
-    api: TbApiApp,
     postman: SiPostman,
   },
 };
