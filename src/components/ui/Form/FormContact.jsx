@@ -27,8 +27,6 @@ export const FormContact = () => {
         message: msg,
       });
 
-      console.log("Status respuesta:", response);
-
       if (response === 200) {
         formRef.current.reset();
         setMessage("MENSAJE ENVIADO EXITOSAMENTE ¡GRACIAS POR ESCRIBIRME!");
