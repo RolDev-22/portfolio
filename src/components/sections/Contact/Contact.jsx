@@ -13,7 +13,7 @@ export default function Contact() {
       className="sharedClass position-relative px-0 container-fluid d-flex flex-column justify-content-center align-items-center">
       <h2 className="apperEffect sharedTitle m-0 mt-5">Contactame</h2>
       <section
-        className={`${styles.containerStyleContact} container-fluid d-flex flex-column flex-md-row col-md-9 p-1 rounded-2`}>
+        className={`${styles.containerStyleContact} container-fluid d-flex flex-column flex-md-row col-12 col-md-11 p-1 rounded-2`}>
         <div className="container-fluid order-2">
           <div className="apperEffect sharedSelect container-fluid colo-12 p-1 m-0 order-md-1">
             <h2>¡Hablemos!</h2>
@@ -44,11 +44,13 @@ export default function Contact() {
           </div>
           <figure className="apperEffectDown d-flex flex-row gap-5 mt-0 mt-md-5">
             <a
+              target="_blank"
               className={`${styles.iconsSocial}`}
               href="https://github.com/RolDev-22">
               <FaSquareGithub />
             </a>
             <a
+              target="_blank"
               className={`${styles.iconsSocial}`}
               href="https://www.linkedin.com/in/rolando-ma/">
               <FaLinkedin />

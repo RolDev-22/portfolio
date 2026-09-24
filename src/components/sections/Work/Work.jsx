@@ -15,7 +15,7 @@ export default function Work() {
       <h3 className="apperEffect">
         Descubre mi trabajo reciente en diseño, desarrollo y creatividad visual
       </h3>
-      <div className="d-flex flex-wrap col-11 p-2 m-0 row-gap-3 justify-content-evenly align-items-center">
+      <div className="d-flex flex-wrap col-12 p-2 m-0 row-gap-3 column-gap-1 justify-content-evenly align-items-center">
         {projects.map((item) => (
           <Card key={item.id} project={item} />
         ))}

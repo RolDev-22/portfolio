@@ -4,8 +4,9 @@ export const Card = ({ project }) => {
   const { name, description, githubUrl, demoUrl, image, topics } = project;
   return (
     <article
-      className={`apperEffect ${styles.cardStyle} container-fluid d-flex flex-column col-12 col-md-6 col-lg-5 rounded-3 p-2 m-0 gap-2 justify-content-center align-items-center`}>
-      <div className={`${styles.containerImg} d-flex justify-content-end`}>
+      className={`apperEffect ${styles.cardStyle} container-fluid d-flex flex-column col-11 col-md-5 rounded-3 p-2 m-0 gap-2 justify-content-center align-items-center`}>
+      <div
+        className={`${styles.containerImg} d-flex justify-content-end align-items-end`}>
         <figure className={`${styles.figureStyle} d-flex justify-content-end`}>
           <img
             src={image}
@@ -20,13 +21,14 @@ export const Card = ({ project }) => {
       <h3>{name}</h3>
       <p className={`${styles.descriptionStyle}`}>{description}</p>
 
-      <div className="user-select-none d-flex col-12 flex-wrap justify-content-between row-gap-3">
+      <div
+        className={`${styles.containerTags} user-select-none d-flex col-12 flex-wrap justify-content-between align-items-start row-gap-3`}>
         {topics &&
           topics
             .filter((topic) => topic.toLowerCase() !== "portfolio")
             .map((topic) => (
               <span key={topic} className={`${styles.tag} rounded-4`}>
-                {topic}
+                {topic.toUpperCase()}
               </span>
             ))}
       </div>
