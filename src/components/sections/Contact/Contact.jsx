@@ -10,8 +10,8 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="sharedClass px-0 container-fluid d-flex flex-column justify-content-center align-items-center">
-      <h2 className="apperEffect sharedTitle m-0 mt-4">Contactame</h2>
+      className="sharedClass position-relative px-0 container-fluid d-flex flex-column justify-content-center align-items-center">
+      <h2 className="apperEffect sharedTitle m-0 mt-5">Contactame</h2>
       <section
         className={`${styles.containerStyleContact} container-fluid d-flex flex-column flex-md-row col-md-9 p-1 rounded-2`}>
         <div className="container-fluid order-2">
@@ -25,7 +25,7 @@ export default function Contact() {
         </div>
         <div
           className={`apperEffect ${styles.infoContactStyle} container-fluid d-flex flex-column align-items-center order-md-2 rounded-2 justify-content-center`}>
-          <div className="d-flex flex-column gap-0 gap-gap-md-3">
+          <div className="sharedSelect d-flex flex-column gap-0 gap-gap-md-3">
             <h2 className=" sharedSelect ">Contacto</h2>
             <ul className=" p-0 m-0 d-flex flex-column gap-0 gap-md-3">
               <li className="d-flex flex-row align-items-center gap-3">

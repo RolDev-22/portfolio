@@ -4,7 +4,7 @@ export const Card = ({ project }) => {
   const { name, description, githubUrl, demoUrl, image, topics } = project;
   return (
     <article
-      className={`${styles.cardStyle} container-fluid d-flex flex-column col-12 col-md-6 col-lg-5 rounded-3 p-2 m-0 gap-2 justify-content-center align-items-center`}>
+      className={`apperEffect ${styles.cardStyle} container-fluid d-flex flex-column col-12 col-md-6 col-lg-5 rounded-3 p-2 m-0 gap-2 justify-content-center align-items-center`}>
       <div className={`${styles.containerImg} d-flex justify-content-end`}>
         <figure className={`${styles.figureStyle} d-flex justify-content-end`}>
           <img

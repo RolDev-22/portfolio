@@ -13,7 +13,8 @@
   --cl9: #42576b;
   --cl10: #14293a;
   --cl11: #008cff;
-  --cl12: #000;
+  --cl12: #0dcaf0;
+  --cl13: #000;
 
   --fnt1: "Jura", sans-serif;
   --fnt2: "Montserrat", sans-serif;
@@ -73,9 +74,61 @@ li {
   user-select: none;
 }
 
+/* CSS DEL FORM */
 .textAreaForm {
   resize: none;
 }
+
+/* FIN CSS DEL FORM */
+
+/* CSS DEL LOADING */
+.containerLoading {
+  position: absolute;
+  display: none;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+}
+
+.Spinner {
+  position: relative;
+  display: flex;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  border-right: 0.3rem solid var(--cl1);
+  animation: load 2s infinite 0.2s linear normal;
+}
+
+@keyframes load {
+  0% {
+    transform: rotate(360deg);
+    border-right-color: var(--cl12);
+  }
+
+  50% {
+    border-right-color: var(--cl3);
+  }
+
+  100% {
+    border-right-color: var(--cl7);
+  }
+}
+
+.show {
+  display: grid;
+  place-items: center;
+  opacity: 1;
+}
+
+/* FIN CSS DEL LOADING */
 
 @media (max-width: 768px) {
   .logo {

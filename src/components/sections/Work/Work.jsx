@@ -11,8 +11,8 @@ export default function Work() {
     <section
       id="project"
       className="sharedClass px-0 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center text-center">
-      <h2 className="sharedTitle">Mis Proyectos</h2>
-      <h3>
+      <h2 className="sharedTitle apperEffect">Mis Proyectos</h2>
+      <h3 className="apperEffect">
         Descubre mi trabajo reciente en diseño, desarrollo y creatividad visual
       </h3>
       <div className="d-flex flex-wrap col-11 p-2 m-0 row-gap-3 justify-content-evenly align-items-center">
